@@ -8,7 +8,9 @@ Clone the repository, install dependencies and run the server.js file:
     npm install
     node server
 
-This will launch the S3 emulator on port 3000.
+This will launch the S3 emulator on port 3000.  You can then make requests like:
+
+    POST http://localhost:3000/bucket/folder/file.ext
 
 To configure options, copy the config/default.json.defaults file to config/default.json and make changes as neccessary.  The path config/default.json is included in .gitignore.
 
