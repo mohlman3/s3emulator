@@ -5,8 +5,9 @@ Lightweight emulator for AWS S3 written in Node.JS.
 
 Clone the repository, install dependencies and run the server.js file:
   
-   npm install
-   node server
+    npm install
+
+    node server
 
 This will launch the S3 emulator on port 3000.
 
