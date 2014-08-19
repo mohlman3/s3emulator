@@ -12,13 +12,17 @@ This will launch the S3 emulator on port 3000.  You can then make requests like:
 
     POST http://localhost:3000/bucket/folder/file.ext
 
+## CONFIGURATION
+
 To configure options, copy the config/default.json.defaults file to config/default.json and make changes as neccessary.  The path config/default.json is included in .gitignore.
 
 The most important config option is the path where the files will be stored on disk.
 
+## FEATURES AND LIMITATIONS
+
 Currently, only GET, POST, PUT, and DELETE options are supported.
 
-Subfolders are supported and will be created as neccessary.  
+Subfolders ARE supported and will be created as neccessary.  
 
 ## CONTRIBUTIONS
 
